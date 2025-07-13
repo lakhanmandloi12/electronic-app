@@ -1,0 +1,47 @@
+.user-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    margin-left: -150px;
+    margin-left: -319px;
+    margin-top: -75px;
+    font-size: large;
+   
+  }
+  
+  .user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+   
+  }
+  
+  .user-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .user-table tr:hover {
+    background-color: #e2e2e2;
+  }
+  /* User.css */
+
+.edit-btn {
+    padding: 5px 10px;        /* Smaller padding */
+    font-size: 12px;          /* Smaller font */
+    background-color: #4CAF50; /* Green background */
+    color: white;             /* White text */
+    border: none;             /* Remove default border */
+    border-radius: 4px;       /* Rounded corners */
+    cursor: pointer;          /* Pointer cursor on hover */
+  }
+  
+  .edit-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  

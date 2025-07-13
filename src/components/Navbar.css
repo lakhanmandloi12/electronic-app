@@ -1,0 +1,17 @@
+.container-Nav {
+    background-color: teal;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1000; 
+    margin-left: 250px;
+    
+}
+.h1{
+    margin-right: 250px;
+    font-size: 30px;
+    color: blanchedalmond;
+    text-align: end;
+}
+

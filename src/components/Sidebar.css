@@ -1,0 +1,111 @@
+/* Sidebar Container */
+.sidebar-container {
+    width: 250px;
+    background-color: #2d3436;
+    padding-top: 20px;
+    height: 126%;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+    margin-top: -34px;
+  }.sidebar-header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #34495e;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    color: #ecf0f1;
+    white-space: nowrap;
+  }
+  
+  /* Search bar styling */
+  .sidebar-search {
+    padding: 10px;
+    border-bottom: 1px solid #34495e;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #34495e;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .search-bar input {
+    flex-grow: 1;
+    border: none;
+    background: none;
+    color: #ecf0f1;
+    font-size: 0.9rem;
+    margin-left: 10px;
+  }
+  
+  .search-bar input:focus {
+    outline: none;
+  }
+  
+  .search-icon {
+    color: #bdc3c7;
+  }
+  
+  /* Navigation links */
+  nav {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  
+  .sidebar-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #bdc3c7;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar-link:hover,
+  .active-link {
+    background-color: #34495e;
+    color: #ecf0f1;
+  }
+  
+  .sidebar-icon {
+    margin-right: 15px;
+    font-size: 1.2rem;
+  }
+  
+  /* Sub-links for Products */
+  .sub-links {
+    margin-left: 20px;
+  }
+  
+  .sub-links .sidebar-link {
+    font-size: 0.9rem;
+    padding: 8px 20px;
+  }
+  
+  /* Logout button styling */
+  .logout-button {
+    margin-top: auto;
+    border: none;
+    background: none;
+    color: #bdc3c7;
+    text-align: left;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .logout-button:hover {
+    background-color: #e74c3c;
+    color: #fff;
+  }

@@ -1,0 +1,109 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+ 
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #1e1e1e;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+ 
+}
+
+.nav-link {
+  margin: 0 15px;
+  color: #00bcd4;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: color 0.3s;
+  
+}
+
+.nav-link:hover {
+  color: #ff4081;
+}
+
+/* Welcome Banner */
+.welcome-banner {
+  text-align: center;
+  margin: 20px 0;
+  color: #00bcd4;
+}
+
+/* Login Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px);
+  margin-top: -91px;
+  
+}
+
+.login-form {
+  background-color: #1e1e1e;
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  
+}
+
+.login-form h1 {
+  margin-bottom: 20px;
+  color: #00bcd4;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2b2b2b;
+  color: #f0f0f0;
+  font-size: 1rem;
+}
+
+.input-group input:focus {
+  outline: none;
+  border: 2px solid #00bcd4;
+}
+
+.error-message {
+  color: #ff5252;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #00bcd4;
+  color: #1e1e1e;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0097a7;
+}
